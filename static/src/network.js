@@ -45,12 +45,12 @@ const init = () => {
     coreSector = sectors[0].sector
     date = dates[dates.length-1].dateID
     _sector = 'all'
-    _nodeRange = [1,30]
+    _nodeRange = [1,15]
     _edgeRange = [0.01,20]
     let edgeRange = [0.005,30]
     let nodeRange = [1,50]
     _edgeCutoff = 0.1
-    _innerCircleRadius = 400
+    _innerCircleRadius = 500
     _outerCirclesRadius = 100
     setSlider(nodeSlider,_nodeRange,nodeRange)
     setSlider(edgeSlider,_edgeRange,edgeRange)
